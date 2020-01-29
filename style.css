@@ -1,0 +1,22 @@
+.header {
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+    margin-top: 55px;
+    height: 450px;
+}
+
+h2 {
+    color: white;
+}
+
+em {
+    color: white;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
