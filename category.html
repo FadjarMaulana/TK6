@@ -7,11 +7,208 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
 </head>
 <body>
 
 
-
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i class='fas fa-dragon' style='font-size:24px;color :darkorange'></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CATEGORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DESIGNER</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+          </ul>
+          <i class="fa fa-shopping-cart" style="color: white;"></i><a class="cart" style="color: gray;">My Cart (12)</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-sm-12">
+                <a href=""><p>Category </a>/ Single Product</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="img/ugh.jpg" class="img-fluid w-100"  style="height:350px;" alt="">
+            </div>
+            <div class="col-sm-10 col-md-6">
+                <div class="card" style="border: none;">
+                    <div class="card-title">
+                        <H4>Jilbab Katun</H4>
+                    </div>
+                    <div class="card-text">
+                        <p class="small text-muted">IDR.20.000.000</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#"><img src="img/minus.png" class="img-fluid" style="background-color:#fff; width: 20px;"></a>
+                            20
+                            <a href="#"><img src="img/plus.png" class="img-fluid" style="background-color:#fff; width: 20px;"></a>
+                        </div>
+                    </div>
+                        <button type="button" class="btn btn-warning mt-2">Add to Chart</button>
+                        <button type="button" class="btn btn-light mt-">Add to Wishlist</button>
+                    <hr class="mt-5" style="border: 1px solid gray;">
+                    <p class="font-weight-light"><small>Designed By</small></p>
+                <div class="row justify-content">
+                    <div class="col-sm-2">
+                        <img src="img/ugh.jpg" class="img-fluid rounded-circle" style="width: 70px;" alt="">
+                    </div>
+                        <div class="col-md-6">
+                            <H6>Imam Maulana Ashari</H6>
+                            <p class="small">14.2 K Followers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2 text-center">
+            <div class="col-5 col-sm-5 col-md-4 col-lg-5">
+                <img src="img/ugh.jpg" class="rounded mb-2" style="width: 80px; height: 60px;border: none;" alt="...">
+                <img src="img/ugh.jpg" class="rounded mb-2" style="width: 80px; height: 60px;border: none;" alt="...">
+                <img src="img/ugh.jpg" class="rounded mb-2" style="width: 80px; height: 60px;border: none;" alt="...">
+                <img src="img/ugh.jpg" class="rounded mb-2" style="width: 80px; height: 60px;border: none;" alt="...">
+            </div>
+        </div>
+    </div>
+        <div class="jumbotron">
+        <div class="row mt- mb-5">
+            <div class="col-sm-6">
+                <div class="list-group list-group-horizontal text-center" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" style="border:none;" id="list-home-list" data-toggle="list" href="#deskripsi" role="tab" aria-controls="deskripsi">Product Description</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#review" role="tab" aria-controls="Review">Reviews (5)</a>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active border p-3" id="deskripsi" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis alias quasi odit deserunt, consequuntur natus sint, blanditiis excepturi quaerat voluptatum impedit? Rem officiis illo similique dolores numquam impedit ad!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid tempore voluptatibus. Consequuntur quam quis atque facilis. Repellendus, maiores, officia hic perferendis, voluptatum ipsam eum voluptatibus eos fuga blanditiis eveniet?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium, ab architecto recusandae quia vero delectus eveniet ex voluptatem. Sapiente qui amet culpa? Impedit dolore placeat doloribus blanditiis quas fugit.</p>
+                    </div>
+                    <div class="tab-pane fade border p-3" id="review" role="tabpanel">
+                        <h4>Imam</h4>
+                        <p>Mantap slurrr</p><hr>
+                        <h4>Maulana</h4>
+                        <p>Memuaskan gan!!!!</p><hr>
+                        <h4>Ashari</h4>
+                        <p>Sama Kaya diatas aja deh komennya!!!</p><hr>
+                        <h4>Habib</h4>
+                        <p>Awas akun resmi</p><hr>
+                        <h4>Riyan</h4>
+                        <p>BINGUNG!!</p><hr>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 style="color:orange">Similiar Product</h4>
+                <p class="small text-muted">Pakaian Pelengkap Produk Diatas</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <div class="card" style="border: none;">
+                    <img src="img/subahanallah.jpg" class="img-thumbnail" alt="">
+                    <h6 class="mt-2">Hatty Bomb</h6>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="small text-muted">Match 20%</p>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <p class="small text-muted">IDR.209.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="border: none;">
+                    <img src="img/ugh.jpg" class="img-thumbnail" alt="">
+                    <h6 class="mt-2">White Pure</h6>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="small text-muted">Match 20%</p>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <p class="small text-muted">IDR.209.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="border: none;">
+                    <img src="img/subahanallah.jpg" class="img-thumbnail" alt="">
+                    <h6 class="mt-2">White Pure</h6>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="small text-muted">Match 20%</p>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <p class="small text-muted">IDR.209.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="color: red; height:5px;">
+        <div class="row row-footer">
+            <div class="col-sm-6">
+                <i class='fas fa-dragon' style='font-size:24px;color :darkorange'></i>
+                <p style="font-size: 18px; color: rgb(199, 191, 191);">All Rights Reserved by Dragon Store Copyright
+                    2019</p>
+            </div>
+            <div class="col-sm-6">
+                <div class="text-right">
+                    <a href="https://twitter.com"><img src="img/twitter.svg"></a>
+                    <a href="https://www.facebook.com"><img src="img/facebook.svg"></a>
+                    <a href="https://www.instagram.com"><img src="img/instagram.svg"></a>
+                </div>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <p style="font-size: 15px; color: blue;">JOBS</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <p style="font-size: 15px; color: blue;">DEVELOPER</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <p style="font-size: 15px; color: blue;">TERMS</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <p style="font-size: 15px; color: blue;">PRIVACY POLICY</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
